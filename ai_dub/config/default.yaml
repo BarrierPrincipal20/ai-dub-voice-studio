@@ -1,0 +1,15 @@
+# Default studio settings. Override with config/local.yaml or AI_DUB_* env vars.
+asr_model: large-v3
+asr_device: auto
+asr_compute_type: float16
+
+tts_engine: xtts
+tts_sample_rate: 24000
+voice_profile_dir: voices
+
+translation_provider: local_nllb
+translation_endpoint: null
+
+ffmpeg_path: ffmpeg
+render_dir: renders
+max_workers: 4
