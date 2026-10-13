@@ -1,0 +1,1 @@
+"""Thin request handlers. Validate, delegate to services, return."""
