@@ -1,0 +1,1 @@
+"""Platform adapters. The only place that touches OS / external binaries."""
