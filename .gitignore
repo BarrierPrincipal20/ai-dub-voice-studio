@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model weights (large, pulled at runtime)
+models/weights/*.bin
+models/weights/*.onnx
+models/weights/*.pt
+!models/weights/.gitkeep
+
+# Voice profile cache
+voices/cache/
+*.voicecache
+
+# Dub render output
+renders/
+*.dubbed.wav
+*.dubbed.mp3
+
+# Secrets
+.env
+*.key
+config/local.yaml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
